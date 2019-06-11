@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="/RosterOnProd/RosterOnProdMobile/content/images/favicon.png" />	
+        <link href="/RosterOnProd/RosterOnProdMobile/favicon.ico" rel="shortcut icon" />
+        <link rel="apple-touch-icon-precomposed" href="/RosterOnProd/RosterOnProdMobile/content/images/favicon.png" />
+        <title>RosterOn - Log in</title>
+        <meta name="viewport" content="width=device-width" />
+
+        <link href="/RosterOnProd/RosterOnProdMobile/Content/mobileCss?v=AaPbdc943wSdpeB-zcJlMUDgS1Wcv9GhcB3Hg9J4FTA1" rel="stylesheet"/>
+<link href="/RosterOnProd/RosterOnProdMobile/Content/css?v=fflyC6wbnEnxqDrJc7BMeUfMF2IDDeoPiz2blYNgGNI1" rel="stylesheet"/>
+
+        <script src="/RosterOnProd/RosterOnProdMobile/bundles/modernizr?v=qVODBytEBVVePTNtSFXgRX0NCEjh9U_Oj8ePaSiRcGg1"></script>
+
+        
+    	<link href="/RosterOnProd/RosterOnProdMobile/Content/themes/mobiscroll.custom-2.4.4.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        
+
+<div data-role="page" data-theme="b" id="account-login" >
+    <div data-role="header" data-position = "fixed">
+        <h1>Log In</h1>
+        <a href="/RosterOnProd" rel="external", class="ui-btn-right">Full Site</a>
+    </div>
+
+    <div data-role="content" id="content">
+<form action="/RosterOnProd/Mobile/Account/Login" data-ajax="false" defaultbutton="loginButton" method="post"><input name="__RequestVerificationToken" type="hidden" value="XXX" /><div class="validation-summary-valid" data-valmsg-summary="true"><ul><li style="display:none"></li>
+</ul></div>            <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">Details</li>
+
+                <li data-role="fieldcontain" data-theme="c" >
+                    <label for="UserName">User name</label>
+                    <input data-val="true" data-val-required="The User name field is required." id="UserName" name="UserName" type="text" value="" />            
+                </li>
+
+                <li data-role="fieldcontain" data-theme="c" >
+                    <label for="Password">Password</label>
+                    <input data-val="true" data-val-required="The Password field is required." id="Password" name="Password" type="password" />            
+                </li>
+            </ul>
+            <input id="loginButton" type="submit" value="Log in" data-ajax="false"/>
+</form>    </div>
+</div>
+
+
+
+
+        <script src="/RosterOnProd/RosterOnProdMobile/bundles/jquery?v=GfvPWbexY0Hcv3tbnmYG9di9DwVO52xMdM27J6KvvjQ1"></script>
+
+        <script src="/RosterOnProd/RosterOnProdMobile/bundles/jquerymobile?v=noV-19-kEZdIzhSbn0OWZYJyoMgawo9hmYWxuZAdr4I1"></script>
+
+        
+    	<script src="/RosterOnProd/RosterOnProdMobile/Scripts/mobiscroll.custom-2.4.4.min.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            $(document).bind("mobileinit", function () {
+                $.mobile.page.prototype.options.degradeInputs.date = true;
+            });
+    
+            $(document).ready(function () {
+                //$.ajaxSetup({ cache: false });
+                $.mobile.ajaxLinksEnabled = false;
+                //$.mobile.ajaxFormsEnabled = false;
+                $.mobile.ajaxEnabled = false;
+            });
+
+            //FOUJUI FIX - Reveal body after UI initilization completes
+            //$("#body").css("opacity", 1);
+
+            $(document).live('pageshow', function(event, ui) {
+                var currentRow = document.getElementById('currentRow');
+                if (currentRow != null) {
+                    currentRow.scrollIntoView();
+                }
+            });
+
+            //$(document).live('pagecreate', function (event) {
+            //    if ($("#request-edit-form").length) {
+            //        DrawRequestFields();
+            //    }
+            //});
+        </script>
+
+    
+    <script src="/RosterOnProd/RosterOnProdMobile/bundles/jqueryval?v=hFLSpMVqlMj-qXnPasK4tue4Vqa_48KhtoT7ecz39lo1"></script>
+
+
+    </body>
+</html>
