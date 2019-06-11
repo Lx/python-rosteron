@@ -6,29 +6,29 @@ Knowledge of the following methods & classes
 is only of benefit if further developing the ``rosteron`` module.
 
 
-Private :class:`Session` Methods
---------------------------------
+Private :class:`~rosteron.Session` Methods
+------------------------------------------
 
 
-``_browse`` Method
-^^^^^^^^^^^^^^^^^^
+:meth:`~rosteron.Session._browse` Method
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ..  automethod:: rosteron.Session._browse
 
 
-``__exit__`` Method
-^^^^^^^^^^^^^^^^^^^
+:meth:`~rosteron.Session.__exit__` Method
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ..  automethod:: rosteron.Session.__exit__
 
 
-Private ``_Response`` Class
----------------------------
+Private :class:`~rosteron._Response` Class
+------------------------------------------
 
 ..  autoclass:: rosteron._Response(time: datetime.datetime, id: str, content: bs4.Tag)
 
 
-Private ``_LogEntry`` Class
----------------------------
+Private :class:`~rosteron._LogEntry` Class
+------------------------------------------
 
 ..  autoclass:: rosteron._LogEntry(time: datetime.datetime, response: requests.Response, purpose: str)
