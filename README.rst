@@ -4,6 +4,12 @@
 .. image:: https://img.shields.io/pypi/v/rosteron.svg
    :target: https://pypi.org/project/rosteron
    :alt: latest release on PyPI
+.. image:: https://travis-ci.org/Lx/python-rosteron.svg
+   :target: https://travis-ci.org/Lx/python-rosteron
+   :alt: build & test status
+.. image:: https://coveralls.io/repos/github/Lx/python-rosteron/badge.svg
+   :target: https://coveralls.io/github/Lx/python-rosteron
+   :alt: test coverage status
 
 The ``rosteron`` module allows read-only access
 to rostering information in instances of RosterOn Mobile,
