@@ -20,6 +20,8 @@ intersphinx_mapping = {
     'requests': ('https://2.python-requests.org/en/stable', None),
 }
 
+master_doc = 'index'
+
 html_theme = 'sphinx_rtd_theme'
 html_show_sourcelink = False
 html_last_updated_fmt = '%d %B %Y'
