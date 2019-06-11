@@ -10,7 +10,7 @@ from requests.cookies import create_cookie
 from rosteron import Snapshot, Item, Session
 from rosteron.exceptions import BadResponseError, BadCredentialsError, NotLoggedInError
 
-HTML: Path = Path(__file__).parent / 'HTML'
+HTML: Path = Path(__file__).parent / 'html'
 
 TEST_URL: str = 'http://example.com/RosterOnProd/Mobile'
 
