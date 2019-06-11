@@ -1,6 +1,10 @@
 ``rosteron``: Read-only RosterOn Mobile roster access
 =====================================================
 
+.. image:: https://img.shields.io/pypi/v/rosteron.svg
+   :target: https://pypi.org/project/rosteron
+   :alt: latest release on PyPI
+
 The ``rosteron`` module allows read-only access
 to rostering information in instances of RosterOn Mobile,
 a workforce management product from `Allocate Software`_.
