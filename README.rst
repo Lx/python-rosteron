@@ -10,6 +10,9 @@
 .. image:: https://coveralls.io/repos/github/Lx/python-rosteron/badge.svg
    :target: https://coveralls.io/github/Lx/python-rosteron
    :alt: test coverage status
+.. image:: https://readthedocs.org/projects/python-rosteron/badge
+   :target: https://python-rosteron.readthedocs.io
+   :alt: documentation build status on Read the Docs
 
 The ``rosteron`` module allows read-only access
 to rostering information in instances of RosterOn Mobile,
@@ -27,7 +30,10 @@ a workforce management product from `Allocate Software`_.
 <Item (date=2019-06-12, title='ABCDE - Melbourne Office', detail=('10:30 - 18:06', None, 'XYZ', 'Assistant'))>
 <Item (date=2019-06-13, title='ABCDE - Melbourne Office', detail=('10:30 - 18:06', None, 'XYZ', 'Assistant'))>
 
+Complete documentation is hosted on `Read the Docs`_.
+
 ..  _Allocate Software: https://www.allocatesoftware.com
+..  _Read the Docs: https://python-rosteron.readthedocs.io
 
 
 Features
@@ -55,9 +61,11 @@ Install this module from PyPI_ using pip_::
 Support
 -------
 
+The ``rosteron`` module is fully documented.
 Bug reports, feature requests, and questions are welcome
 via the issue tracker.
 
+:Documentation: https://python-rosteron.readthedocs.io
 :Issue tracker: https://github.com/Lx/python-rosteron/issues
 
 
